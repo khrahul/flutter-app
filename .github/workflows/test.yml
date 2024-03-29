@@ -30,7 +30,7 @@ jobs:
         run: echo Hello, world!
         
       - name: Run ls command
-        run: ls
+        run: ssh bat 'ls'
         
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
